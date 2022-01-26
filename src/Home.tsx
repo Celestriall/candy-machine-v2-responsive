@@ -495,16 +495,17 @@ const Home = (props: HomeProps) => {
                     </Menu> */}
           {/* <Wallet> */}
           {wallet ? (
-            <WalletAmount>
+            {balance ? ( 
+            <WalletAmount> 
               {(balance).toLocaleString()} SOL
               <ConnectButton />
-            </WalletAmount> || <br />
+            </WalletAmount>  ) : (
+              <br /> )}
           ) : (
             <ConnectButton>Connect Wallet</ConnectButton>
           )}
           {/* </Wallet> */}
         </WalletContainer>
-        <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
         <br />
 
         <MintContainer>
