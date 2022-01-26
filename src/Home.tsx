@@ -482,7 +482,7 @@ const Home = (props: HomeProps) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img alt="" src="logo.png" />
+              <h2>Mutant Zombies NFT</h2>
             </a>
           </Logo> */}
           {/* <Menu>
