@@ -482,7 +482,7 @@ const Home = (props: HomeProps) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2>Mutant Zombies NFT</h2>
+              <img alt="" src="logo.png" />
             </a>
           </Logo> */}
           {/* <Menu>
@@ -510,7 +510,7 @@ const Home = (props: HomeProps) => {
         <MintContainer>
           <DesContainer>
             <NFT elevation={3}>
-              <h2><img src="logo.png" alt=""></h2>
+              <h2>Mutant Zombies NFT</h2>
               <br />
               <div>
                 <Price
