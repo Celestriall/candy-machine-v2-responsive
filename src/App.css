@@ -37,7 +37,7 @@ h3 {
 
 .MuiPaper-root {
   backdrop-filter: blur(4px)!important;
-  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 33%), 0px 1px 8px 0px rgb(0 0 0 / 83%);
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 33%), 0px 1px 8px 0px rgb(0 0 0 / 83%) !important;
   
 }
 
@@ -91,3 +91,8 @@ h3 {
     text-align: center;
     color: #fff !important;
 }
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+  
