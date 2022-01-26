@@ -510,7 +510,7 @@ const Home = (props: HomeProps) => {
         <MintContainer>
           <DesContainer>
             <NFT elevation={3}>
-              <h2>Mutant Zombies NFT</h2>
+              <h2><img src="logo.png" alt=""></h2>
               <br />
               <div>
                 <Price
