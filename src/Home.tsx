@@ -70,33 +70,33 @@ const MintButtonContainer = styled.div`
 `;
 
 const WalletAmount = styled.div`
-  color: black;
-  width: auto;
-  height: 48px;
-  padding: 0 5px 0 16px;
-  min-width: 48px;
-  min-height: auto;
-  border-radius: 24px;
-  background-color: var(--main-text-color);
-  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
-    0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
-  box-sizing: border-box;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-weight: 500;
-  line-height: 1.75;
-  text-transform: uppercase;
-  border: 0;
-  margin: 0;
-  display: inline-flex;
-  outline: 0;
-  position: relative;
-  align-items: center;
-  user-select: none;
-  vertical-align: middle;
-  justify-content: flex-start;
-  gap: 10px;
+color: black;
+width: auto;
+height: 40px;
+padding: 0px 0px 0px 16px;
+min-width: 48px;
+min-height: auto;
+border-radius: 24px;
+background-color: var(--main-text-color);
+box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
+box-sizing: border-box;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+font-weight: 500;
+line-height: 1.75;
+text-transform: uppercase;
+border: 0px;
+margin: 0px;
+display: inline-flex;
+outline: 0px;
+position: relative;
+-webkit-box-align: center;
+align-items: center;
+user-select: none;
+vertical-align: middle;
+-webkit-box-pack: start;
+justify-content: flex-start;
+gap: 10px;
+margin-top: 0%;
 `;
 
 const ConnectButton = styled(WalletMultiButton)``;
