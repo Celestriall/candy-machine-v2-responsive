@@ -23,7 +23,9 @@ p {
 }
 
 h3 {
-  font-weight: normal;
+ font-weight: 900;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin-top: 21px;
 }
 
 .MuiFab-extended {
@@ -95,5 +97,33 @@ background: linear-gradient(90deg, rgba(224,162,254,1) 0%, rgba(186,52,249,1) 35
 
 .MuiPaper-root {
   background-color: transparent !important;
+}
+
+.MuiChip-root {
+    color: #fff;
+    border: none;
+    cursor: default;
+    height: 32px;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    font-size: 0.8125rem;
+    box-sizing: border-box;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    white-space: nowrap;
+    border-radius: 16px;
+    vertical-align: middle;
+    justify-content: center;
+    text-decoration: none;
+    /* background-color: #bb34f8; */
+    top: 524px;
+    left: 42%;
+    width: 120px;
+    /* padding-top: 16px; */
+    background: linear-gradient( 
+90deg
+ ,#e0a2fe,#ba34f9 35%,#5d008e);
 }
   
