@@ -510,7 +510,7 @@ const Home = (props: HomeProps) => {
         <MintContainer>
           <DesContainer>
             <NFT elevation={3}>
-              <img class="logo" src="/src/images/logo.png" alt="Greedy Pigz Mint" />
+              <img class="logo" src="/images/logo.png" alt="Greedy Pigz Mint" />
               <br />
               <div>
                 <Price
