@@ -495,12 +495,13 @@ const Home = (props: HomeProps) => {
                     </Menu> */}
           {/* <Wallet> */}
           {wallet ? (
-            {balance ? ( 
+            if (balance) {
             <WalletAmount> 
               {(balance).toLocaleString()} SOL
               <ConnectButton />
-            </WalletAmount>  ) : (
-              <br /> )}
+            </WalletAmount>  ) }
+          else {
+              <br /> }
           ) : (
             <ConnectButton>Connect Wallet</ConnectButton>
           )}
