@@ -76,7 +76,8 @@ h3 {
 }
 
 .MuiLinearProgress-barColorPrimary {
-  background-color: var(--title-text-color) !important;
+  background: rgb(224,162,254);
+background: linear-gradient(90deg, rgba(224,162,254,1) 0%, rgba(186,52,249,1) 35%, rgba(93,0,142,1) 100%);
 }
 
 .MuiButton-contained {
