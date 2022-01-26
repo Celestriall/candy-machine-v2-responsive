@@ -482,7 +482,7 @@ const Home = (props: HomeProps) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img alt="" src="logo.png" />
+              <img alt="" src="logo.png" </img>
             </a>
           </Logo> */}
           {/* <Menu>
