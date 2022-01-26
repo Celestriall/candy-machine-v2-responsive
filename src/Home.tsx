@@ -603,7 +603,7 @@ const Home = (props: HomeProps) => {
                   View on Solana Explorer
                 </SolExplorerLink>
               )}
-            </NFT>
+           <img /> </NFT>
           </DesContainer>
           {/* <DesContainer>
             <Des elevation={2}>
