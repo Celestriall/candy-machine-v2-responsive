@@ -494,7 +494,7 @@ const Home = (props: HomeProps) => {
                                rel="noopener noreferrer">Menu 3</a></li>
                     </Menu> */}
           {/* <Wallet> */}
-         {(wallet && balance)? (
+         {wallet ? (
             <WalletAmount>
               {(balance || 0).toLocaleString()} SOL
               <ConnectButton />
