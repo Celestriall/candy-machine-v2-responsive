@@ -494,14 +494,11 @@ const Home = (props: HomeProps) => {
                                rel="noopener noreferrer">Menu 3</a></li>
                     </Menu> */}
           {/* <Wallet> */}
-          {wallet ? (
-            if (balance) {
-            <WalletAmount> 
-              {(balance).toLocaleString()} SOL
+         {(wallet && balance)? (
+            <WalletAmount>
+              {(balance || 0).toLocaleString()} SOL
               <ConnectButton />
-            </WalletAmount>  ) }
-          else {
-              <br /> }
+            </WalletAmount>
           ) : (
             <ConnectButton>Connect Wallet</ConnectButton>
           )}
