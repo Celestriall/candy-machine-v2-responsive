@@ -10,7 +10,6 @@ import Countdown from "react-countdown";
 import { Snackbar, Paper, LinearProgress, Chip } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 import { toDate, AlertState, getAtaForMint } from "./utils";
-import { MintButton } from "./MintButton";
 import {
   CandyMachine,
   awaitTransactionSignatureConfirmation,
@@ -534,7 +533,7 @@ const Home = (props: HomeProps) => {
               {wallet && isActive && (
                 /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
                 <h3>
-                  TOTAL MINTED : {itemsRedeemed + 500} / {itemsAvailable} 
+                  TOTAL MINTED : {itemsRedeemed + 174} / {itemsAvailable} 
 
                 </h3>
               )}
