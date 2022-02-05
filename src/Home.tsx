@@ -10,6 +10,7 @@ import Countdown from "react-countdown";
 import { Snackbar, Paper, LinearProgress, Chip } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 import { toDate, AlertState, getAtaForMint } from "./utils";
+import { MintButton } from "./MintButton";
 import {
   CandyMachine,
   awaitTransactionSignatureConfirmation,
