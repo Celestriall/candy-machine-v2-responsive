@@ -534,7 +534,7 @@ const Home = (props: HomeProps) => {
               {wallet && isActive && (
                 /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
                 <h3>
-                  TOTAL MINTED : {itemsRedeemed + 1256} / {itemsAvailable} 
+                  TOTAL MINTED : {itemsRedeemed + 1632} / {itemsAvailable} 
 
                 </h3>
               )}
